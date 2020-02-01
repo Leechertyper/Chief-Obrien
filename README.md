@@ -1,2 +1,2 @@
-# SuperEcoWarriorsX
+# Chief-Obrien
 GlobalGameJam2020
