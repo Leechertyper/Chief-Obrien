@@ -21,14 +21,14 @@ public class PlayerActionAndMovement : MonoBehaviour
     protected bool validMovement;
     public int[] playerPosition;
     protected int[,] tileContents;
-    protected int width = 17;
-    protected int height = 11;
+    protected int width = 11;
+    protected int height = 9;
 
 
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        playerPosition = new int[] {10, 5};
+        playerPosition = new int[] {5, 8};
         tileContents =new int[,] { { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
                                    { 0, 4, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0 },
                                    { 0, 4, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0 },

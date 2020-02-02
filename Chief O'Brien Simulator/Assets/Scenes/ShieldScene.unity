@@ -197,6 +197,36 @@ MonoBehaviour:
   barPrefab: {fileID: 154863257057690374, guid: fc421422208d00f40b3e9d7306f785c1,
     type: 3}
   barContainer: {fileID: 1671466793}
+--- !u!1 &137447938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 137447939}
+  m_Layer: 0
+  m_Name: Camera Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &137447939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137447938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 281986874}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &281986873
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 281986874}
+  - component: {fileID: 281986875}
   m_Layer: 0
   m_Name: Shield Minigame Container
   m_TagString: Untagged
@@ -224,7 +255,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1135257604}
+  - {fileID: 137447939}
   - {fileID: 1490349663}
   - {fileID: 1595226827}
   - {fileID: 95387693}
@@ -233,6 +264,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &281986875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281986873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c6ebce8bd85274eb3536d7d02ce4b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &312224126
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,49 +402,6 @@ MonoBehaviour:
   barPrefab: {fileID: 154863257057690374, guid: fc421422208d00f40b3e9d7306f785c1,
     type: 3}
   barContainer: {fileID: 1671466793}
---- !u!1 &1135257603
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1135257604}
-  - component: {fileID: 1135257605}
-  m_Layer: 0
-  m_Name: Shield Minigame Handler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1135257604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135257603}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 281986874}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1135257605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135257603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26c6ebce8bd85274eb3536d7d02ce4b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1490349660
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,12 +497,12 @@ GameObject:
   - component: {fileID: 1595226826}
   - component: {fileID: 1595226825}
   - component: {fileID: 1595226828}
-  - component: {fileID: 1595226829}
   - component: {fileID: 1595226831}
   - component: {fileID: 1595226830}
+  - component: {fileID: 1595226829}
   m_Layer: 0
   m_Name: PlayerSprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -592,7 +592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595226824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 281986874}
@@ -628,10 +628,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595226824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb7e6d8b848110b4e97145ec95fa7e47, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c37ceec3ec4d654dbfe05abb51f8155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 95387693}
+  playerPosition: 
 --- !u!95 &1595226830
 Animator:
   serializedVersion: 3
@@ -660,10 +660,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595226824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a1d282320fdd4a4a8dc735cc7016c08, type: 3}
+  m_Script: {fileID: 11500000, guid: 70900d24efc6a40459e65a907bb7c60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: 
+  spawnPoint: {fileID: 95387693}
 --- !u!1 &1671466792
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +705,7 @@ GameObject:
   - component: {fileID: 1710775991}
   - component: {fileID: 1710775993}
   - component: {fileID: 1710775992}
+  - component: {fileID: 1710775994}
   m_Layer: 0
   m_Name: Target
   m_TagString: Finish
@@ -736,7 +737,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 7368fd1b8c70d3e4ebacf540abe0604c, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -803,3 +804,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1710775994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710775990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8cdbcf16c67eef4e8c596f746169303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldMan: {fileID: 281986875}

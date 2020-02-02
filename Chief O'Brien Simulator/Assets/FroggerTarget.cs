@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShieldMinigameManager : MonoBehaviour
+public class FroggerTarget : MonoBehaviour
 {
+    public ShieldMinigameManager shieldMan;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +18,9 @@ public class ShieldMinigameManager : MonoBehaviour
         
     }
 
-    public void WinMinigame() {
-        Debug.Log("Shield minigame handler received win message");
-    }
-
-    public void LoseMinigame() {
-        Debug.Log("Shield minigame handler received loss message.");
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.transform.tag == "Player") {
+            shieldMan.WinMinigame();
+        }
     }
 }
