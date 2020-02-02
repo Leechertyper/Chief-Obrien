@@ -12,8 +12,8 @@ namespace WebHandler
         private static readonly HttpClient client = new HttpClient();
         private HttpRequestMessage request;
         public roomConfig json;
-        VoteStatus vote;
-        JobID JOBID;
+        private VoteStatus vote;
+        private JobID JOBID;
 
 
         public async Task StartVote(){
