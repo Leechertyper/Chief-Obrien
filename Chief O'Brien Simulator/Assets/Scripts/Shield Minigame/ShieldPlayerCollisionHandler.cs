@@ -17,14 +17,8 @@ public class ShieldPlayerCollisionHandler : MonoBehaviour
         
     }
 
-    void TeleportToSpawnPoint()
+    public void TeleportToSpawnPoint()
     {
         this.transform.position = spawnPoint.position;
-    }
-
-    void OnCollisionEnter2D(Collision2D collisionInfo)
-    {
-        Debug.Log("Collision.");
-        TeleportToSpawnPoint();
     }
 }

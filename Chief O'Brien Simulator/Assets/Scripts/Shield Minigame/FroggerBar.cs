@@ -30,7 +30,7 @@ public class FroggerBar : MonoBehaviour
     {
         if ((Mathf.Abs(transform.position.x)) >= 15)
         {
-            Debug.Log("Delete bar");
+            //Debug.Log("Delete bar");
             Destroy(this.gameObject);
             spawner.SpawnBar();
         }
@@ -39,5 +39,12 @@ public class FroggerBar : MonoBehaviour
     private void FixedUpdate()
     {
         transform.Translate(Vector2.right * direction * movementSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.transform.tag == "Player") {
+            Debug.Log("Collided.");
+            other.transform.gameObject.GetComponent<ShieldPlayerCollisionHandler>().TeleportToSpawnPoint();
+        }
     }
 }

@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: movementSpeed
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 154863257057690370, guid: fc421422208d00f40b3e9d7306f785c1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 154863257057690374, guid: fc421422208d00f40b3e9d7306f785c1,
         type: 3}
       propertyPath: m_Name
