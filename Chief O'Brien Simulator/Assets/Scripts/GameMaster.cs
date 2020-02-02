@@ -6,6 +6,10 @@ public class GameMaster : MonoBehaviour
 {
     [Header("Managers")]
     public MinigameManager minigameMan;
+    public DecisionManager decisionMan;
+
+    [Header("Terminals")]
+    public TerminalInteraction[] terminals = new TerminalInteraction[5];
 
     [Header("Scene References")]
     public GameObject mainSceneContainer;
@@ -17,9 +21,22 @@ public class GameMaster : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        int responseID = decisionMan.GetResponse();
+        Debug.Log(responseID);
+        if (responseID != -1) {
+            ActivateTerminal(responseID);
+        }
+    }
+
+    public void ActivateTerminal(int id) {
+        if (terminals[id].IsTerminalActive()) {
+            //Debug.Log("Terminal already active. ID: " + id);
+        } else {
+            Debug.Log("Terminal not active. Activating.");
+            terminals[id].SetTerminalActive();
+        }
     }
 
     void LoadMinigame(int id) {

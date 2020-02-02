@@ -35,12 +35,27 @@ public class TerminalInteraction : MonoBehaviour
         if (canCallManager && Input.GetAxisRaw("Jump") != 0) {
             CallManager();
         }
+
+        if (minigameReady) {
+            this.transform.GetComponent<SpriteRenderer>().color = Color.red;
+        } else {
+            this.transform.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+
     }
 
     void CallManager() {
         gameMaster.SetupMinigame(this.minigameID);
         canCallManager = false;
         minigameReady = false;
+    }
+
+    public bool IsTerminalActive() {
+        return this.minigameReady;
+    }
+
+    public void SetTerminalActive() {
+        this.minigameReady = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision) 
