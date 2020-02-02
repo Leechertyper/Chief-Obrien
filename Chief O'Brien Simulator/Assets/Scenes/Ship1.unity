@@ -268,7 +268,7 @@ MonoBehaviour:
   canCallManager: 0
   shadowCollider: {fileID: 61632753}
   playerObjectCollided: {fileID: 0}
-  minigameID: 0
+  minigameID: 1
   minigameReady: 1
 --- !u!1 &91530389
 GameObject:
@@ -4317,7 +4317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigamePrefabs:
   - {fileID: 1218479176126096579, guid: f6328126fdfbf80489fc3b519d254771, type: 3}
-  - {fileID: 0}
+  - {fileID: 8732745554632171043, guid: 8b29fa9b90510b34cad057412a0ee95f, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
