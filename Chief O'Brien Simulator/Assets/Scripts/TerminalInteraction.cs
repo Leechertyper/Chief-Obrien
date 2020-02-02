@@ -32,7 +32,7 @@ public class TerminalInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canCallManager && Input.GetAxisRaw("Fire1") != 0) {
+        if (canCallManager && Input.GetAxisRaw("Jump") != 0) {
             CallManager();
         }
     }

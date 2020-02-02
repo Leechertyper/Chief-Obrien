@@ -21,6 +21,14 @@ public class MinigameManager : MonoBehaviour
         
     }
 
+    public void LostMinigame() {
+        Debug.Log("Received lost minigame message.");
+    }
+
+    public void WonMinigame() {
+        Debug.Log("Received won minigame message");
+    }
+
     public void SpawnMinigame(int id) {
         GameObject minigame = (GameObject)Instantiate(minigamePrefabs[id], positionToSpawnMinigame.position, Quaternion.identity);
         minigame.transform.parent = this.transform;

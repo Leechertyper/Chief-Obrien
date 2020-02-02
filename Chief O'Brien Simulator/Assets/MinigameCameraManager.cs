@@ -19,12 +19,12 @@ public class MinigameCameraManager : MonoBehaviour
         
     }
 
-    void SetMainCameraToThisMinigame() {
+    public void SetMainCameraToThisMinigame() {
         CameraManager.instance.SetMinigameTransform(minigameCamTarget);
         CameraManager.instance.SetTargetToMinigame();
     }
 
-    void ReturnMainCameraToShip() {
+    public void ReturnMainCameraToShip() {
         CameraManager.instance.SetTargetToPlayer();
     }
 }
