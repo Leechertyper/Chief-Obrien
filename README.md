@@ -1,2 +1,0 @@
-# SuperEcoWarriorsX
-GlobalGameJam2020
