@@ -6,13 +6,12 @@ using UnityEngine;
 using Config;
 namespace WebHandler
 {
-    class Request
+    public class Request
     {
-        string SERVER = "tux6:35000";
+        private static readonly string SERVER = "http://tux6:35000";
         private static readonly HttpClient client = new HttpClient();
         private HttpRequestMessage request;
-        private string room;
-        roomConfig json;
+        public roomConfig json;
         VoteStatus vote;
         JobID JOBID;
 
@@ -22,8 +21,9 @@ namespace WebHandler
             HttpResponseMessage response;
             try{
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", json.token);
-                response = await client.PostAsync(SERVER+"/game/"+json.room_id+"/jobs/", null);
-                JOBID = JsonUtility.FromJson<JobID>(response.ToString());
+                response = await client.PostAsync(SERVER+"/game/"+json.room_id+"/jobs", null);
+                Debug.Log(await response.Content.ReadAsStringAsync());
+                JOBID = JsonUtility.FromJson<JobID>(await response.Content.ReadAsStringAsync());
             }
             catch(HttpRequestException e){
             }
@@ -37,7 +37,7 @@ namespace WebHandler
 
             try{
                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", json.token);
-               response = await client.GetStringAsync(SERVER+"/game/"+json.room_id+"/jobs/"+JOBID);
+               response = await client.GetStringAsync(SERVER+"/game/"+json.room_id+"/jobs/"+JOBID.job_id);
                vote = JsonUtility.FromJson<VoteStatus>(response);
             }
             catch(HttpRequestException e){
@@ -54,11 +54,24 @@ namespace WebHandler
 
         public async Task GetRoom(){
 
-            string response;
+            HttpResponseMessage response;
 
             try{
-                response = await client.GetStringAsync(SERVER+"/game");
-                json = JsonUtility.FromJson<roomConfig>(response);
+                response = await client.PostAsync(SERVER+"/game", null);
+                Debug.Log(await response.Content.ReadAsStringAsync());
+                json = JsonUtility.FromJson<roomConfig>(await response.Content.ReadAsStringAsync());
+            }
+            catch(HttpRequestException e){
+            }
+        }
+
+        public async Task KillRoom(){
+            HttpResponseMessage response;
+
+            try{
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", json.token);
+                response = await client.DeleteAsync(SERVER+"/game/"+json.room_id);
+                Debug.Log(await response.Content.ReadAsStringAsync());
             }
             catch(HttpRequestException e){
             }
