@@ -5,12 +5,15 @@ using UnityEngine;
 public class GameMaster : MonoBehaviour
 {
     [Header("Managers")]
-    public GameObject minigameManager;
+    public MinigameManager minigameMan;
+
+    [Header("Scene References")]
+    public GameObject mainSceneContainer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,12 +22,13 @@ public class GameMaster : MonoBehaviour
         
     }
 
-    void LoadMinigame() {
-
+    void LoadMinigame(int id) {
+        minigameMan.SpawnMinigame(id);
     }
 
     public void SetupMinigame(int minigameID) {
         Debug.Log("Received minigame ID: " + minigameID);
+        LoadMinigame(minigameID);
     }
 
     // Debug
