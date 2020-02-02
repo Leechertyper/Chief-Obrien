@@ -5,17 +5,22 @@ using UnityEngine;
 public class CollectorMovement : MonoBehaviour
 {
     public float speed;
+    private AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.45f;
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
         float h = Input.GetAxisRaw("Horizontal");
-        gameObject.transform.position = new Vector2 (transform.position.x + (h*speed), transform.position.y);
+        gameObject.transform.position = new Vector2 (transform.position.x + (h*speed)*Time.deltaTime, transform.position.y);
 
     }
+    private void OnTriggerEnter2D(Collider2D c){
+        source.Play();
+    }
+
 }

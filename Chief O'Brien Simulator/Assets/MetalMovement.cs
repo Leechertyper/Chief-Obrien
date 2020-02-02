@@ -7,11 +7,11 @@ public class MetalMovement : MonoBehaviour
     public float speed;
     // Update is called once per frame
     void Start(){
-        speed = 0.035f;
+        
     }
     void Update()
     {
-        gameObject.transform.position = new Vector2 (gameObject.transform.position.x, gameObject.transform.position.y + speed);
+        gameObject.transform.position = new Vector2 (gameObject.transform.position.x, gameObject.transform.position.y + speed*Time.deltaTime);
         if (gameObject.transform.position.y > 8){
             Destroy(gameObject);
         }

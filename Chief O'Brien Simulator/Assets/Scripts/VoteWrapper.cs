@@ -44,8 +44,8 @@ namespace WebHandler
                 System.Random rnd = new System.Random();
                 return rnd.Next(1,3);
             }
-            if (vote.Complete){
-                return vote.Result;
+            if (vote.complete){
+                return vote.result;
             }
             return -1;
         }
