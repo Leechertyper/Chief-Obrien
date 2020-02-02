@@ -1,0 +1,74 @@
+speed weapons shields
+
+speed weapons hull
+
+speed weapons sensors
+
+-speed shields hull
+
+	"Engineer O'Hogan! There's a shortcut home through that asteroid field! Get us there on the double!"
+	
+	"Aye Captain, isolating the neutrino matrix and energizing the tribromium gemoids."
+	<speed minigame>
+	"The asteroids are densilating in response to the neutrino matrices! Power to shields and brace for impact!"
+	
+	"Did they not cyberstealth the neutrino beams? Those bloody idiots..."
+	<shield minigame>
+	*crash sounds*
+	"Hull breach on deck 78! Demodulate the deck controllers and start repairs!"
+	
+	"Rechemistrizing the tritanium omega alloys, captain!"
+	<hull minigame>
+	"Once again, I lead us to glorious victory! Three cheers for the captain!"
+	
+speed shields sensors
+
+-speed hull sensors
+
+	"A black hole quantum bored directly behind the ship! Increase speed to 157%!"
+	
+	"I'll have to jet the neutron saturator and gabbrolize the engine bay to achieve speeds like that!"
+	<speed minigame>
+	
+
+weapons shields hull
+
+-weapons shields sensors
+
+	"Engineer O'Hogan, I have a feeling there's a valueable ore deposit in that asteroid. Calibrate the hypersensors for galvanized bistanium."
+
+	"Galvanized bistanium will never show up unless I superconduct the hypersensors first."
+	<sensor minigame>
+	"Great Scott! A Freon ship was on the asteroid and quantum detected the sensor sweep! Divert power to shields!"
+
+	"I can't just quantum tunnel the power that fast! I'll need to microwormhole the tachyonic ramscoops and reennervate the macro reflective projectile space instead."
+	<shield minigame>
+	"Now, fire all weapons!"
+
+	"For the love of -- I need to harmonize the targetting mode for the vasatrons to have any effect!"
+	<weapon minigame>
+	"Once again, I lead us to glorious victory! Three cheers for the captain!"
+
+weapons hull sensors 
+
+shields hull sensors
+
+
+cloaked enemy ship
+
+asteroid field
+
+nearby black hole
+
+enemy ship exits warp
+
+
+
+
+
+
+Yellow Alert - Captain, choose a course of action!
+We've sustained damage, captain, what are your orders?
+There's an asteroid field ahead, captain, what would you like to do? (scan for valuable ores/take a shortcut through)
+Red Alert! There's an enemy ship approaching (fight/run away/hide)
+There's an important diplomat on board the ship, Captain, how shall we protect them?"
