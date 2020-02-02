@@ -12,8 +12,8 @@ namespace Config
 
     public class VoteStatus
     {
-        public bool Complete;
-        public int Result;
+        public bool complete;
+        public int result;
     }
 
     public class JobID
