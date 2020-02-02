@@ -16,6 +16,7 @@ public class DecisionManager : MonoBehaviour
     {
         request = new Request();
         await request.GetRoom();
+        print(request.json.room_id);
         await request.StartVote();
         timer = voteWaitTime;
     }
@@ -35,6 +36,10 @@ public class DecisionManager : MonoBehaviour
 
     public int GetResponse() {
         return response;
+    }
+
+    public int GenerateMinigameID() {
+        return Random.Range(0,2);
     }
 
     // await request.KillRoom();

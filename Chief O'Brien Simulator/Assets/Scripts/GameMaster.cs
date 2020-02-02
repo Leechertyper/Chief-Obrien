@@ -23,7 +23,12 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        GetIDFromServer();
+    }
+
+    void GetIDFromServer() {
         int responseID = decisionMan.GetResponse();
+        //int responseID = decisionMan.GenerateMinigameID();
         Debug.Log(responseID);
         if (responseID != -1) {
             ActivateTerminal(responseID);
