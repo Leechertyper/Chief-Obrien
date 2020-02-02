@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 02cd35cdb9a5f5f499258e76bfbd91f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7195088665511751435
+    second: AblativePlatingAvatar_0
+  - first:
+      213: 9041935225709102689
+    second: AblativePlatingAvatar_1
+  - first:
+      213: 7178454559877792013
+    second: AblativePlatingAvatar_2
+  - first:
+      213: -5386956547304408385
+    second: AblativePlatingAvatar_3
+  - first:
+      213: 58084989708654581
+    second: AblativePlatingAvatar_4
+  - first:
+      213: 5020553548724597982
+    second: AblativePlatingAvatar_5
+  - first:
+      213: 2495131046381387785
+    second: AblativePlatingAvatar_6
+  - first:
+      213: -3667542286324349996
+    second: AblativePlatingAvatar_7
+  - first:
+      213: -2624037138637582980
+    second: AblativePlatingAvatar_8
+  - first:
+      213: -9142838684457179812
+    second: AblativePlatingAvatar_9
+  - first:
+      213: -6431005168720419171
+    second: AblativePlatingAvatar_10
+  - first:
+      213: -6830891166841596555
+    second: AblativePlatingAvatar_11
+  - first:
+      213: 4251998401910017045
+    second: AblativePlatingAvatar_12
+  - first:
+      213: -2222129414818149894
+    second: AblativePlatingAvatar_13
+  - first:
+      213: -2994015461305403798
+    second: AblativePlatingAvatar_14
+  - first:
+      213: -841427745645651280
+    second: AblativePlatingAvatar_15
+  - first:
+      213: -5945275415535550136
+    second: AblativePlatingAvatar_16
+  - first:
+      213: 4440218476479728180
+    second: AblativePlatingAvatar_17
+  - first:
+      213: 972889419651568517
+    second: AblativePlatingAvatar_18
+  - first:
+      213: 4469806681236879784
+    second: AblativePlatingAvatar_19
+  - first:
+      213: 3177380190849322901
+    second: AblativePlatingAvatar_20
+  - first:
+      213: 5455028219857457145
+    second: AblativePlatingAvatar_21
+  - first:
+      213: -2329992298442853907
+    second: AblativePlatingAvatar_22
+  - first:
+      213: 1397364036619300515
+    second: AblativePlatingAvatar_23
+  - first:
+      213: 3757289006600930715
+    second: AblativePlatingAvatar_24
+  - first:
+      213: 4506813909453617486
+    second: AblativePlatingAvatar_25
+  - first:
+      213: 5523699124302674734
+    second: AblativePlatingAvatar_26
+  - first:
+      213: -3635515657307880624
+    second: AblativePlatingAvatar_27
+  - first:
+      213: 7429784088450393891
+    second: AblativePlatingAvatar_28
+  - first:
+      213: -8260210048225403539
+    second: AblativePlatingAvatar_29
+  - first:
+      213: -1395887781762748986
+    second: AblativePlatingAvatar_30
+  - first:
+      213: 3127231008885359937
+    second: AblativePlatingAvatar_31
+  - first:
+      213: 7830985342598386142
+    second: AblativePlatingAvatar_32
+  - first:
+      213: -7644217890267054950
+    second: AblativePlatingAvatar_33
+  - first:
+      213: -1187494159385468509
+    second: AblativePlatingAvatar_34
+  - first:
+      213: -2043646096279401144
+    second: AblativePlatingAvatar_35
+  - first:
+      213: -4793461969290306145
+    second: AblativePlatingAvatar_36
+  - first:
+      213: -5362757443382813624
+    second: AblativePlatingAvatar_37
+  - first:
+      213: -5005333755584160510
+    second: AblativePlatingAvatar_38
+  - first:
+      213: 1387113072454857029
+    second: AblativePlatingAvatar_39
+  - first:
+      213: -1852290829982114990
+    second: AblativePlatingAvatar_40
+  - first:
+      213: 683813210090248066
+    second: AblativePlatingAvatar_41
+  - first:
+      213: 817656785148211673
+    second: AblativePlatingAvatar_42
+  - first:
+      213: -2857306700096636407
+    second: AblativePlatingAvatar_43
+  - first:
+      213: 6807726732486648017
+    second: AblativePlatingAvatar_44
+  - first:
+      213: -5860946675639159063
+    second: AblativePlatingAvatar_45
+  - first:
+      213: 5504103163214058159
+    second: AblativePlatingAvatar_46
+  - first:
+      213: -6992178509829169015
+    second: AblativePlatingAvatar_47
+  - first:
+      213: -5690375582631092177
+    second: AblativePlatingAvatar_48
+  - first:
+      213: 1875184071179621473
+    second: AblativePlatingAvatar_49
+  - first:
+      213: 5431506283477531447
+    second: AblativePlatingAvatar_50
+  - first:
+      213: 2445821783585022108
+    second: AblativePlatingAvatar_51
+  - first:
+      213: -7588311709196609789
+    second: AblativePlatingAvatar_52
+  - first:
+      213: 7355202538504269355
+    second: AblativePlatingAvatar_53
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f644325071ad360800000000000000
+      internalID: 7195088665511751435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1668b7a7e286b7d70800000000000000
+      internalID: 9041935225709102689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d018ccd936efe9360800000000000000
+      internalID: 7178454559877792013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_3
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbab471cf8fad35b0800000000000000
+      internalID: -5386956547304408385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7dd5a8dfb5ec000800000000000000
+      internalID: 58084989708654581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_5
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed47e8f3ad69ca540800000000000000
+      internalID: 5020553548724597982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_6
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9008c97877c70a220800000000000000
+      internalID: 2495131046381387785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AblativePlatingAvatar_7
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 960
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3c9e8d8b54a1dc0800000000000000
+      internalID: -3667542286324349996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
