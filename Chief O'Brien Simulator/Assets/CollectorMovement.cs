@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Metals : MonoBehaviour
+public class CollectorMovement : MonoBehaviour
 {
     public float speed;
     // Start is called before the first frame update
     void Start()
     {
-
+        speed = 0.45f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.transfrom.position = new Vector2 (transform.position.x, transform.position.y + speed);
+        float h = Input.GetAxisRaw("Horizontal");
+        gameObject.transform.position = new Vector2 (transform.position.x + (h*speed), transform.position.y);
+
     }
 }
