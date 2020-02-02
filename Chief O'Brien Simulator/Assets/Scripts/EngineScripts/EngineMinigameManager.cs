@@ -21,6 +21,7 @@ public class EngineMinigameManager : MonoBehaviour
     public void LoseMinigame() {
         Debug.Log("Lost minigame.");
         this.transform.parent.GetComponent<MinigameManager>().LostMinigame();
+        ReturnControlToShip();
     }
 
     public void WinMinigame() {
