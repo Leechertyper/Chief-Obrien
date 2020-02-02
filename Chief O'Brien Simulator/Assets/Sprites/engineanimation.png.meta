@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 4b3a2fde6871f42459d748d3fb550b4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3490429743638062135
+    second: engineanimation_0
+  - first:
+      213: 224380026190229707
+    second: engineanimation_1
+  - first:
+      213: 3248527744154174610
+    second: engineanimation_2
+  - first:
+      213: -1225748147447302620
+    second: engineanimation_3
+  - first:
+      213: -8364770296370861307
+    second: engineanimation_4
+  - first:
+      213: -1683746063154775252
+    second: engineanimation_5
+  - first:
+      213: -5045963916846013125
+    second: engineanimation_6
+  - first:
+      213: -5506713245106679024
+    second: engineanimation_7
+  - first:
+      213: -6464707289993167004
+    second: engineanimation_8
+  - first:
+      213: 4126792394702778437
+    second: engineanimation_9
+  - first:
+      213: 5473524864067146382
+    second: engineanimation_10
+  - first:
+      213: 7875856084200771537
+    second: engineanimation_11
+  - first:
+      213: 3362430201011193388
+    second: engineanimation_12
+  - first:
+      213: 3185529439700443525
+    second: engineanimation_13
+  - first:
+      213: 3404761157105305849
+    second: engineanimation_14
+  - first:
+      213: 2066543484634293197
+    second: engineanimation_15
+  - first:
+      213: 1399459073886482173
+    second: engineanimation_16
+  - first:
+      213: -8436828291660991653
+    second: engineanimation_17
+  - first:
+      213: -7401334691763633760
+    second: engineanimation_18
+  - first:
+      213: -564699560621455447
+    second: engineanimation_19
+  - first:
+      213: -1325582387282799347
+    second: engineanimation_20
+  - first:
+      213: 9066860231804568677
+    second: engineanimation_21
+  - first:
+      213: 3164376898840768367
+    second: engineanimation_22
+  - first:
+      213: 825685767422085282
+    second: engineanimation_23
+  - first:
+      213: 3533633754291049911
+    second: engineanimation_24
+  - first:
+      213: -6068559540904548040
+    second: engineanimation_25
+  - first:
+      213: -2327400203829552443
+    second: engineanimation_26
+  - first:
+      213: -645318502722839661
+    second: engineanimation_27
+  - first:
+      213: 4518839113056571311
+    second: engineanimation_28
+  - first:
+      213: 6454898992786096615
+    second: engineanimation_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: engineanimation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbdef824a08f8fc0800000000000000
+      internalID: -3490429743638062135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f2cbe1782d1300800000000000000
+      internalID: 224380026190229707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948f4995c6151d20800000000000000
+      internalID: 3248527744154174610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4267f4fdd844dfee0800000000000000
+      internalID: -1225748147447302620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b6311ebbd5aeb80800000000000000
+      internalID: -8364770296370861307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b72bd50e122a8e0800000000000000
+      internalID: -1683746063154775252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3840
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3564f26d8229f9b0800000000000000
+      internalID: -5045963916846013125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3840
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0135a79ba793493b0800000000000000
+      internalID: -5506713245106679024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3840
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f3413a8feb846a0800000000000000
+      internalID: -6464707289993167004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_9
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3840
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540fa0c71df454930800000000000000
+      internalID: 4126792394702778437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e829df72dddd5fb40800000000000000
+      internalID: 5473524864067146382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2880
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfc2e86169ac4d60800000000000000
+      internalID: 7875856084200771537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2880
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c264151f370c9ae20800000000000000
+      internalID: 3362430201011193388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2880
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581e4e2d526453c20800000000000000
+      internalID: 3185529439700443525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2880
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f84f42bb34204f20800000000000000
+      internalID: 3404761157105305849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3668aa956ddac10800000000000000
+      internalID: 2066543484634293197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1920
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe63b0fc90eb6310800000000000000
+      internalID: 1399459073886482173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b4947e5d5aea80800000000000000
+      internalID: -8436828291660991653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1920
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a147a1df4d294990800000000000000
+      internalID: -7401334691763633760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1920
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c654ddb8c928f0800000000000000
+      internalID: -564699560621455447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d059e7d87d59a9de0800000000000000
+      internalID: -1325582387282799347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 960
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564c3d0b755f3dd70800000000000000
+      internalID: 9066860231804568677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 960
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f2bde16002aeb20800000000000000
+      internalID: 3164376898840768367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_23
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 960
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a80a4fa4dc657b00800000000000000
+      internalID: 825685767422085282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_24
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 960
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b519d27d2df90130800000000000000
+      internalID: 3533633754291049911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839a31a004528cba0800000000000000
+      internalID: -6068559540904548040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca519088d963bfd0800000000000000
+      internalID: -2327400203829552443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_27
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bd736ad3e5b07f0800000000000000
+      internalID: -645318502722839661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engineanimation_28
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 960
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafc0e24b3426be30800000000000000
+      internalID: 4518839113056571311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
