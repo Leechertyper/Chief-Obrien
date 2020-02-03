@@ -32,15 +32,30 @@ public class TerminalInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canCallManager && Input.GetAxisRaw("Fire1") != 0) {
+        if (canCallManager && Input.GetAxisRaw("Jump") != 0) {
             CallManager();
         }
+
+        if (minigameReady) {
+            this.transform.GetComponent<SpriteRenderer>().color = Color.red;
+        } else {
+            this.transform.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+
     }
 
     void CallManager() {
         gameMaster.SetupMinigame(this.minigameID);
         canCallManager = false;
         minigameReady = false;
+    }
+
+    public bool IsTerminalActive() {
+        return this.minigameReady;
+    }
+
+    public void SetTerminalActive() {
+        this.minigameReady = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision) 
