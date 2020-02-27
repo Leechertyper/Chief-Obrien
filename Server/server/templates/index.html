@@ -108,6 +108,7 @@
 
         handleChange(event){
             this.setState({ choice: event.target.value });
+            console.log("set worked")
         }
 
 
@@ -138,10 +139,13 @@
           <form onSubmit={this.handleSubmit}>
             <p>
               {question}
-              <br />
-              <input type="radio" name="vote" value={option1ID} /> {option1}
-              <br />
-              <input type="radio" name="vote" value={option2ID} /> {option2}
+              <label>
+              <input type="radio" name="vote" onChange={this.handleChange} 
+              checked={ this.state.choice==={option1ID}}  value={option1ID} />{option1}
+              </label><label>
+              <input type="radio" name="vote" onChange={this.handleChange} 
+              checked={ this.state.choice==={option2ID}} value={option2ID} />{option2}
+              </label>
             </p>
             
             <input type="submit" value="Submit" />
